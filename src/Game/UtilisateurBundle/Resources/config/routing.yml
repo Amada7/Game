@@ -1,0 +1,3 @@
+game_utilisateur_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: GameUtilisateurBundle:Default:index }
