@@ -2,3 +2,6 @@ game_utilisateur_login:
     path:     /login/{request}
     defaults: { _controller: GameUtilisateurBundle:Security:login, }
     
+game_utilisateur_edit_utilisateur:
+    path:     /edit/{request}
+    defaults: { _controller: GameUtilisateurBundle:Profile:edit, }
